@@ -5,8 +5,7 @@
 // Server Side: Node.js
 // Client: React and Angular
 
-// Module 3: Introduction Section
+// Section 3: Introduction 
 // Covers - Add js to html; multiple js files; formatting code; fixing errors; case sensitivity; commenting
 
-// Module 4: Constants and Variables
-
+// see script.js
