@@ -9,3 +9,7 @@ function showHeading2(head2){
 function showHeading3(head3){
     document.getElementById("heading3").textContent = head3 + " content added in function"
 }
+
+function onClickFunction(){
+    console.log("Buttonn clicked")
+}
