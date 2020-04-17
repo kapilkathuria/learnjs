@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <!-- Adding ES6 to ES5 Complier -->
+  <script src="https://google.github.io/traceur-compiler/bin/traceur.js"></script>
+  <!-- SystemJS is a module loader that can import modules 
+    at run time in any of the popular formats used today 
+    (CommonJS, UMD, AMD, ES6).  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.18.2/system.js"></script>	
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -38,7 +44,9 @@
 <script src="./basic/s8_obj_dom.js"></script>
 <script src="./basic/s9-arrays.js"></script>
 <script src="./basic/s10-scope-hoisting.js"></script> -->
-<script src="./es6/s2_syntax_chg.js"></script>
+<!-- <script src="./es6/s2_syntax_chg.js"></script> -->
+<!-- <script src="./es6/s3_modules_classes.js"></script> -->
+<script>System.import("./es6/s3_modules_classes.js")</script>
 <!-- <script type="text/javascript" src="home.js"></script> -->
 
 </body>
