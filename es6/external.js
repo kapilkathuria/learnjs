@@ -13,4 +13,6 @@ let ab = 'some text'
 
 // You can also export later
 export{test};
+
+// File can have only 1 defult export
 export default ab;
