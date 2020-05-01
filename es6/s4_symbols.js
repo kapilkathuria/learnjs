@@ -1,12 +1,12 @@
 // Section 4 - Symbols
 // Meta programming tools
-// New Premitive Type - Number, String, Boolean
+// New Premitive Type. existing primitive type: Number, String, Boolean
 // It represents UID
 // Use Case: 1. You can add properties to object
 // which is unique
 // Use case: 2. constants representing some unique values
 // like colors
-// Symbols are not interable 
+// Symbols are not Iterable 
 
 // Purpose of having 'debug' parameter for Symbol is to
 // uniquly identify them. it can be any word
@@ -20,7 +20,7 @@ let anotherSymbol = Symbol('debug');
 // symbols are unique
 console.log(symbol == anotherSymbol);
 
-// symbols are great in conjuction with objec
+// symbols are great in conjuction with objects
 let obj = {
     name: "max",
     // Variable property name
@@ -61,14 +61,12 @@ console.log(person[symbol2]);
 // Already implemented in JS and offer core functionanlity
 // 
 
-class Person {
-
-};
-
-let person2 = new Person();
-
-console.log(person2);
-
-Person.prototype[Symbol.toStringTag] = 'Person';
-let person3 = new Person();
-console.log(person3);
+let numbers = [1,2,3];
+console.log(numbers+1);
+// as you can see it hs printed 1,2,31.
+// this behavior can be changed with symbols.
+// symbols allow us to alter the default behavior
+numbers[Symbol.toPrimitive] = function() {
+    return 999;
+}
+console.log(numbers+1);
