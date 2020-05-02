@@ -9,3 +9,11 @@
 // Covers - Add js to html; multiple js files; formatting code; fixing errors; case sensitivity; commenting
 
 // see script.js
+
+// try-catch block
+try{
+
+}
+catch(e){
+    console.log(e);
+}
