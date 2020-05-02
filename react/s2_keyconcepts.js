@@ -75,3 +75,20 @@
 //  data can't move from actual DOM to Virtual DOM
 
 // Why Name React: as this framework 'Reacts' to state changges
+
+// 4. UI, The rest is up to you
+// this is what made react stand-up
+// Angular is Framework... 
+// while react says , I am just UI. everything else you need, you can use separate packages for it
+
+// React Everywhere: Electron and React Desktop, React Native, React VR, React Terminal, 
+// We import 2 Libraries - React DOM and React Core
+
+// React Keywords: Decalarative, JSX, Component, State, Props, VirtualDOM
+
+// Now, Angular and Vu.js also has similar features but 
+
+// Best Practice for React Developers
+// 1. Decide on Components
+// 2. Decide on State
+// 3. What Changes when state changes
