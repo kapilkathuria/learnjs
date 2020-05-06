@@ -42,9 +42,11 @@
 
 // Thinking in JSX
 // Seems like HTML but these are the differences
-// 1. className: if you notice, this isn't html bt it's jsx.
-//      jsx uses className for distingusing between html class and javascript class.
-// 2. {} : curly brackets: they mean that anythign is inside is js code
+// 1. className: if you notice, this isn't html bUt 
+//  it's jsx. jsx uses className for distingusing 
+//  between html class and javascript class.
+// 2. {} : curly brackets: they mean that anythign is 
+//  inside is js code
 // 3. Methods shown like onClick are all JSX
 
 
