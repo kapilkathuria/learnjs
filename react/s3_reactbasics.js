@@ -11,11 +11,12 @@
 // package.json: contains various command which can be executed for running, 
 //  deplooying and testinf etc.
 
-// react application in html wher ewe have root div
+// react generates html code and that is replaced in main
+//   html file whereve have root div
 
 // Babel: Converts out code to something which browser can understand
 // Webpack: allows us write modulerized code.
-//  takes out mutiple js file and it bundles it
+//  takes out mutiple js file and bundles it
 
 // Two core libraries
 // 'react': core library
