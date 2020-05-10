@@ -1,4 +1,8 @@
-// URL: https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/
+// Course URL: https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/
+
+// My code for this course is at 2 Repos
+// my-app Application: https://github.com/kapilkathuria/lrn_react
+ 
 
 // Goals of the course
 // React Basics: why, principles, pros and cons

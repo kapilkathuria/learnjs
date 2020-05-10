@@ -4,7 +4,7 @@
 // 
 
 // Why React?
-// Came our in 2013
+// Came out in 2013
 // Prior to that: in 1990s and early 2000s - html and css. JS for interactiiveness
 // Browse works differently and javascript was required to adopted for each browsser
 
@@ -32,7 +32,7 @@
 // 4 keys things
 
 // 1. Don't touch the DOM, I will do it
-// Imperative Paradigm: You directly change DOM in response to user's respose
+// Imperative Paradigm: You directly change DOM in response to user's response
 // this does the work but it become difficult to see the relationship between 
 //  various interactions
 // Imperative meaning: of vital importance; crucial.
@@ -42,7 +42,7 @@
 // React says - decalre to me what app should loook like,
 //  and i will take DOOM operations. as DOM operation is key 
 //  bottleneck
-// State: React has idea of State which is - current sstate of the application
+// State: React has idea of State which is - current state of the application
 // 
 // Decelrative meaning in programming: denoting high-level programming languages 
 //  which can be used to solve problems without requiring the programmer to 

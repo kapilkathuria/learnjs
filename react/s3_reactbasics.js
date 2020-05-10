@@ -5,11 +5,11 @@
 // Tutorial: https://reactjs.org/
 
 // Folders
-// src: contains out code but this is not shipped
+// src: contains our code but this is not shipped
 // build: is created when we run npm run build
 //  contains miniatuerized code which browser can understand and is deployed
 // package.json: contains various command which can be executed for running, 
-//  deplooying and testinf etc.
+//  deploying and testing etc.
 
 // react generates html code and that is replaced in main
 //   html file whereve have root div
@@ -52,4 +52,5 @@
 
 
 // Dynamic Contents
-// 
+// See below in App.js of my-app
+// this.state.main_items.map(item => <h1 key={item.id}>{item.name}</h1>)
